@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+  <style>
+    body{
+      margin:0%;
+      padding:0%;
+      background-image: url(https://img5.thuthuatphanmem.vn/uploads/2021/08/25/background-3d-4k_085529380.jpg);
+      background-position: center center;
+      font-family: 'Poppins', sans-serif;
+    }
+    .cointainer {
+      display:flex;
+      flex-direction:column;
+      align-items: center;
+    }
+    form{
+      width: 440px;
+      height:340px;
+      border: 1px solid black; 
+      padding-top: 15px;
+      padding-left: 18px;
+      background-image: url(https://img.freepik.com/free-vector/hand-painted-watercolor-pastel-sky-background_23-2148902771.jpg?w=2000);
+    }
+    .field{
+      padding-bottom: 32px;
+    }
+    .field>b{
+      font-family: 'Poppins', sans-serif;
+      color: rgba(255, 255, 255, 0.562);
+    }
+   .field>input{
+     display: inline-block;
+     width:70%;
+     border-radius: 4px;
+     box-sizing: border-box;
+     padding-left: 12px;
+   }
+   .field>input[name="Tên"]{
+     position: relative;
+     right: -50px
+   }
+   .field>input[name="Email"]{
+     position: relative;
+     left: 35px;
+   }
+   .field>input[name="Number"]{
+      position: relative;
+      left: 15px;
+   }
+    #message>input {
+      height:100px;
+      position: relative;
+      left: 10px;
+    }
+    button{font-family: 'Poppins', sans-serif;
+      position: relative;
+      top: 20px;
+      left: 200px;
+    }
+  </style>
+  <title>Document</title>
+  
+</head>
+<body>
+  <div class="cointainer">
+    <div class="title">
+      <h1> Liên hệ</h1>
+    </div>
+    <form>
+      <div class="field">
+        <b>Tên:</b>
+        <input type="text" name="Tên" Placeholder="điền tên của bạn vào đây">
+      </div>
+      <div class="field">
+        <b>Email:</b>
+      <input type="mail" name="Email" placeholder="điền email">
+      </div>
+      <div class="field">
+        <b>Number:</b>
+        <input type="number" name="Number" placeholder="số điện thoại">
+      </div>
+      <div class="field" id="message">
+        <b>Message:</b>
+        <input type="text" name="Message" placeholder=""><br>
+        <button type="button" id="button">Submit</button>
+      </div>
+    </form>
+  </div>
+   
+</body>
+</html>

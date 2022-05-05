@@ -1,0 +1,27 @@
+.container {
+    padding: 10px;
+    margin-left: 350px;
+    margin-right: 350px;
+    background:#fcfafa;
+}
+.container1 {
+    background-color: aqua;
+    padding-left: 350px;
+}
+.field{
+    color: aqua;
+}
+.title{
+    display: inline;
+    background-color: black;
+}
+.square{
+    
+    border:1px solid black;
+    border-radius: 10px;
+    box-shadow: 50px solid black;
+}
+/* .button{
+    width: 50px;
+    height: 50px;
+} */
