@@ -318,3 +318,32 @@ p[target = "paragh"] {
 .img-hover:hover{
   opacity: 0.60;
 }
+.dropdown-content {
+  display: none;
+  position: absolute;
+  top: 59px;
+  left: 4px;
+  background-color: #f9f9f9;
+  min-width: 129px;
+  box-shadow: 0px 8px 16px 0px rgb(0 0 0 / 20%);
+  z-index: 1;
+}
+
+#Account {
+  position: relative;
+  display: inline-block;
+}
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+
+#Account:hover .dropdown-content {
+  display: block;
+}

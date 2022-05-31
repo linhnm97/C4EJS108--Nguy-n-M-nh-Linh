@@ -1,0 +1,60 @@
+body{
+  margin: 0%;
+  padding: 0%;
+  background-image: url(https://img5.thuthuatphanmem.vn/uploads/2021/08/25/background-3d-4k_085529380.jpg);
+  background-position: center center;
+  font-family: 'Poppins', sans-serif;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.cointainer {
+  display:flex;
+  flex-direction:column;
+  align-items: center;
+}
+form{
+  width: 440px;
+  height: 200px;
+  border: 1px solid black; 
+  padding-top: 15px;
+  padding-left: 18px;
+  background-image: url(https://img.freepik.com/free-vector/hand-painted-watercolor-pastel-sky-background_23-2148902771.jpg?w=2000);
+}
+.field{
+  padding-bottom: 32px;
+}
+.field>b{
+  font-family: 'Poppins', sans-serif;
+  color: rgba(255, 255, 255, 0.562);
+}
+.field>input{
+ display: inline-block;
+ width:70%;
+ border-radius: 4px;
+ box-sizing: border-box;
+ padding-left: 12px;
+}
+.field>input[name="Tên"]{
+ position: relative;
+ right: -30px;
+ padding-top: 10px;
+ padding-bottom: 10px;
+}
+.field>input[name="password"]{
+ position: relative;
+ left: 35px;
+ padding-top: 10px;
+ padding-bottom: 10px;
+}
+#message>input {
+  height:100px;
+  position: relative;
+  left: 10px;
+}
+button{
+  font-family: 'Poppins', sans-serif;
+  position: relative;
+  top: 0px;
+  font-size: 20px;
+  left: 200px;
+}

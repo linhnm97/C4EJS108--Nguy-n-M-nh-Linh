@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="form.css">
+  <title>Document</title>
+  
+</head>
+<body>
+  <div class="cointainer">
+    <div class="title">
+      <h1> Đăng nhập</h1>
+    </div>
+    <form>
+      <div class="field">
+        <b>Username</b>
+        <input id="user"type="text" name="Tên" Placeholder="Tên tài khoản">
+        <div id="error-user"></div>
+      </div>
+      <div class="field">
+        <b>Password</b>
+      <input id="password" type="password" name="password" placeholder="Mật khẩu">
+      <div id="error-password"></div>
+      </div>
+        <button type="submit" id="button">Submit</button>
+    </form>
+    <script src="./form.js"></script>
+  </div>
+   
+</body>
+</html>
